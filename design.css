@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.full{
+    height: 100%;
+   background: black;
+}
+.hh{
+    display: inline-block;
+    color: rgb(205, 63, 11); 
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.div1, .div2, .div3{
+    border-radius: 12px;
+    background-color: rgba(33, 32, 32, 0.9);
+    margin-left: 25px;
+    width: 1420px;
+    height: 200px;
+    display: inline-block;
+    z-index: 1;
+}
+.div2{
+    margin-top: 20px;
+}
+.div3{
+    margin-top: 20px;
+}
+.h1, .p1, .h5, .h2, .p2, .h52, .h3, .p3, .h53{
+    color: white;
+    margin-left: 30px;
+}
+.h1, .h2, .h3{
+    display: inline-block;
+}
+.p1{
+    margin-top: 0;
+    word-spacing: 1px;
+    opacity: 0.9;
+}
+.p2, .p3{
+    margin-top: 0;
+    word-spacing: 1px;
+    opacity: 0.9;
+}
+.div1:hover{
+    background-color:darkorange;
+}
+.div2:hover{
+    background-color:darkorange;
+}
+.div3:hover{
+    background-color:darkorange;
+}
+.h53, .h52, .h5{
+    opacity: 0.5;
+}
