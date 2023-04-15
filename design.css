@@ -47,15 +47,9 @@ html, body{
     word-spacing: 1px;
     opacity: 0.9;
 }
-.div1:hover{
-    background-color:darkorange;
-}
-.div2:hover{
-    background-color:darkorange;
-}
-.div3:hover{
-    background-color:darkorange;
-}
 .h53, .h52, .h5{
     opacity: 0.5;
+}
+div>div:hover{
+    background-color:darkorange;
 }
